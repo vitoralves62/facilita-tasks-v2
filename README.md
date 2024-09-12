@@ -1,4 +1,15 @@
-# facilita-tasks-4
+# FACILITATASKS
+
+### Deployed Aplication
+```
+https://facilita-tasks-v2.vercel.app/
+```
+
+## credencials
+```
+login: vitor.alves@appfacilita.com
+senha: vitor123
+```
 
 ## Project setup
 ```
@@ -20,5 +31,3 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
