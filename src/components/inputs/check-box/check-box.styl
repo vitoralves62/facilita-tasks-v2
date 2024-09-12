@@ -1,0 +1,43 @@
+.custom-checkbox-container
+  display inline-block
+  position relative
+  padding-left 35px
+  cursor pointer
+  font-size 22px
+  user-select none
+
+.input-checkbox
+  position absolute
+  opacity 0
+  cursor pointer
+  height 0
+  width 0
+
+.checkmark
+  position absolute
+  top -0.9rem
+  left 0
+  height 33px
+  width 33px
+  background-color #E2EEF5
+  border-radius 4px
+
+.input-checkbox:checked ~ .checkmark
+  background-color #0ED984
+
+.checkmark:after
+  content ""
+  position absolute
+  display none
+
+.input-checkbox:checked ~ .checkmark:after
+  display block
+
+.checkmark:after
+  left 9px
+  top 3px
+  width 10px
+  height 18px
+  border solid white
+  border-width 0 3px 3px 0
+  transform rotate(45deg)

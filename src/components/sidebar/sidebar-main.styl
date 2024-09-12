@@ -1,0 +1,73 @@
+.sidebar
+    background-color: #2693FF
+    width 8.9vw
+    max-width: 106px
+    height: 100%
+    display flex
+    flex-direction column
+    font-family Gilroy_Bold
+    align-items center
+    justify-content center
+
+    .sidebar-itens
+        text-decoration: none
+        list-style-type: none
+        display: flex;
+        flex-direction: column
+        align-items center
+        width 100%
+        padding 0
+        
+        .dashboard, .tasks, .settings
+            width 98%
+            height 100%
+            max-width: 106px
+            max-height: 83px
+            display flex
+            justify-content center
+            align-items center
+            padding 20px 0
+            border 0.5px solid #46A3FF
+        
+        .dashboard:hover, .tasks:hover, .settings:hover
+            cursor pointer
+            background-color #1182F2
+
+        .graph
+            width 32px
+            height 24px
+
+        .check-circle
+            width 30px
+            height 30px
+        
+        .gears
+            width 34.01px
+            height 27.01px
+            padding: 0
+
+        .dash-button, .tasks-button, .config-button
+            display flex
+            width 100%
+            flex-direction column
+            background none
+            border none
+            color #FFF
+            align-items center 
+            justify-content center
+            text-align center
+            font-size 12px
+            gap 3px
+            text-decoration: none
+            .a-dash, .a-tasks, .a-settings
+                color #FFF
+                text-decoration: none
+        .dash-button:hover, .tasks-button:hover, .config-button:hover
+            cursor pointer
+
+    .Logo
+        width 45%
+        height auto
+        position absolute
+        top 2.5%
+        left 25%

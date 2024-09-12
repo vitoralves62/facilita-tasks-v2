@@ -1,0 +1,81 @@
+.modal-overlay
+    position fixed
+    top 0
+    left 0
+    right 0
+    bottom 0
+    background: rgba(70, 93, 118, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display flex
+    justify-content center
+    align-items center
+    .modal-content
+        background #FFF
+        position fixed
+        width 100%
+        height 100%
+        max-width 477px
+        max-height 345px
+        border-radius 8px
+        display flex
+        flex-direction column
+        justify-content center
+        align-items center
+        .trash-container
+            background-color #EDF6FC
+            padding-left 35.5px
+            padding-right 35.5px 
+            padding-top 30px 
+            padding-bottom 30px 
+            border-radius 50%
+            .trash-icon
+                width 100%
+                max-width 59px
+        .delete-text-container
+            display flex
+            flex-direction column
+            justify-content center
+            align-items center
+            .delete-text-title
+                font-family Gilroy_Bold
+                font-size 20px
+                color #283848
+                margin-top 12px 
+                margin-bottom 4px
+            .delete-span
+                color #FF4874
+            .delete-text-subtitle
+                font-family Gilroy_SemiBold
+                font-size 15px
+                color #475E78
+                margin-top 0
+                margin-bottom 29px
+        .buttons-container
+            display flex
+            gap 12px
+            .cancel-button
+                max-width 118px
+                max-height 41px
+                width 100%
+                height 100%
+                background-color #1AD18F
+                border none
+                border-radius 4px
+                color #fff
+                font-family Gilroy_Bold
+                padding 10px 15px 10px 15px
+                &:hover 
+                    cursor pointer
+            .confirm-delete-button
+                max-width 118px
+                max-height 41px
+                width 100%
+                height 100%
+                background-color #FF4874
+                border none
+                border-radius 4px
+                color #fff
+                font-family Gilroy_Bold
+                padding 10px 15px 10px 15px
+                &:hover 
+                    cursor pointer
