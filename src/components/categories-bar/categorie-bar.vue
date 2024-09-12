@@ -59,7 +59,7 @@ export default {
     const categories = computed(() => 
       taskStore.categorie.map(category => ({
         ...category,
-        displayName: category.name === 'Normal' ? 'Outras' : category.name
+        displayName: category.name === 'Normal' ? 'Outras' : category.name+"s"
       }))
     );
 
