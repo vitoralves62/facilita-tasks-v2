@@ -58,7 +58,8 @@ export default {
     },
     computed: {
         isFormValid() {
-          return this.task.title.trim() !== '' && this.task.description.trim() !== '';
+          // return this.task.title.trim() !== '' && this.task.description.trim() !== '';
+          return true;
         }
     },
     methods: {

@@ -7,7 +7,7 @@
                     <span class="title-bold">FACILITA</span>
                     <span class="title-regular">TASKS</span>
                 </h1>
-                <p class="sub-title">Gestão de tarefas pessoais</p>
+                <p class="sub-title">Gestão de tarefas pessoas</p>
             </div>
         </div>
         <div class="form-container">

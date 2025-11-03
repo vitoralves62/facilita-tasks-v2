@@ -37,11 +37,7 @@ export default {
         const deletedTask = ref(props.taskId);
 
         const confirmDeletion = () => {
-            console.log("Testei",deletedTask)
-
             taskStore.deleteTask(deletedTask.value);
-            
-            console.log(deletedTask)
             closeModal();
         };
 

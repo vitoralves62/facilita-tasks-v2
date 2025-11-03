@@ -56,8 +56,11 @@
                 emit('open-task-edit', props.taskId);
             };
 
-            const openTaskDelete = (taskId) => {
-                emit('open-task-delete', taskId);
+            const openTaskDelete = (
+                //taskId
+            ) => {
+                // emit('open-task-delete', taskId);
+                console.log('Parabéns você achou um easter egg! A funcionalidade de excluir tarefa está em desenvolvimento. 🚧');
             };
 
             const clickIcon = () => {

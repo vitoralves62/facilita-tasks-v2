@@ -1,12 +1,12 @@
 import { defineStore } from "pinia";
 import userDTO from "@/Model/userDTO";
-import profilePic from '@/assets/imgs/pics/vitor2.png';
+import profilePic from '@/assets/imgs/pics/cr7.jpg';
 
 const userData = [
     {
-        username: 'Vitor Alves de Brito',
-        email: 'vitor.alves@appfacilita.com',
-        password: 'vitor123',
+        username: 'Cristiano Ronaldo',
+        email: 'cristiano@facilita.com',
+        password: 'cr7facilita',
         role: 'Front-End Developer',
         profilepic: profilePic
     }
